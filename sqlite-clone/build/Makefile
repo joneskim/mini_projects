@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/joneskim/Documents/Projects/sqlite-clone
+CMAKE_SOURCE_DIR = /Users/joneskim/Documents/Projects/smaller_projects/mini_projects/sqlite-clone
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/joneskim/Documents/Projects/sqlite-clone/build
+CMAKE_BINARY_DIR = /Users/joneskim/Documents/Projects/smaller_projects/mini_projects/sqlite-clone/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/joneskim/Documents/Projects/sqlite-clone/build/CMakeFiles /Users/joneskim/Documents/Projects/sqlite-clone/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/joneskim/Documents/Projects/smaller_projects/mini_projects/sqlite-clone/build/CMakeFiles /Users/joneskim/Documents/Projects/smaller_projects/mini_projects/sqlite-clone/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/joneskim/Documents/Projects/sqlite-clone/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/joneskim/Documents/Projects/smaller_projects/mini_projects/sqlite-clone/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

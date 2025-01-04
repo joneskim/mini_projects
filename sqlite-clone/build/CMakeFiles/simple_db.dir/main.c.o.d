@@ -1,5 +1,5 @@
 CMakeFiles/simple_db.dir/main.c.o: \
-  /Users/joneskim/Documents/Projects/sqlite-clone/main.c \
+  /Users/joneskim/Documents/Projects/smaller_projects/mini_projects/sqlite-clone/main.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/cdefs.h \
