@@ -129,29 +129,29 @@ simple_db/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_db.dir/build.make CMakeFiles/simple_db.dir/build
 .PHONY : simple_db/fast
 
-main.o: main.c.o
+main.o: main.C.o
 .PHONY : main.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_db.dir/build.make CMakeFiles/simple_db.dir/main.c.o
-.PHONY : main.c.o
+main.C.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_db.dir/build.make CMakeFiles/simple_db.dir/main.C.o
+.PHONY : main.C.o
 
-main.i: main.c.i
+main.i: main.C.i
 .PHONY : main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_db.dir/build.make CMakeFiles/simple_db.dir/main.c.i
-.PHONY : main.c.i
+main.C.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_db.dir/build.make CMakeFiles/simple_db.dir/main.C.i
+.PHONY : main.C.i
 
-main.s: main.c.s
+main.s: main.C.s
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_db.dir/build.make CMakeFiles/simple_db.dir/main.c.s
-.PHONY : main.c.s
+main.C.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_db.dir/build.make CMakeFiles/simple_db.dir/main.C.s
+.PHONY : main.C.s
 
 # Help Target
 help:

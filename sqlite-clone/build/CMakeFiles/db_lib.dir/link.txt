@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libdb_lib.a CMakeFiles/db_obj.dir/main.c.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libdb_lib.a

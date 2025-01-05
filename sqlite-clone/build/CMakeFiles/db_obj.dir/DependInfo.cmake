@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/joneskim/Documents/Projects/smaller_projects/mini_projects/sqlite-clone/main.C" "CMakeFiles/simple_db.dir/main.C.o" "gcc" "CMakeFiles/simple_db.dir/main.C.o.d"
+  "/Users/joneskim/Documents/Projects/smaller_projects/mini_projects/sqlite-clone/main.c" "CMakeFiles/db_obj.dir/main.c.o" "gcc" "CMakeFiles/db_obj.dir/main.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
