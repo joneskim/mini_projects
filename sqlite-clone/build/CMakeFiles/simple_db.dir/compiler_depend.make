@@ -9,7 +9,6 @@ CMakeFiles/simple_db.dir/main.C.o: /Users/joneskim/Documents/Projects/smaller_pr
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/_abort.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/_printf.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/_regex.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/_string.h \
@@ -52,7 +51,6 @@ CMakeFiles/simple_db.dir/main.C.o: /Users/joneskim/Documents/Projects/smaller_pr
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/malloc/_malloc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/malloc/_malloc_type.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/malloc/_ptrcheck.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/regex.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/stdlib.h \
@@ -144,6 +142,8 @@ CMakeFiles/simple_db.dir/main.C.o: /Users/joneskim/Documents/Projects/smaller_pr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/fcntl.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/cdefs.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/appleapiopts.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_uuid_t.h:
@@ -205,6 +205,8 @@ CMakeFiles/simple_db.dir/main.C.o: /Users/joneskim/Documents/Projects/smaller_pr
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_int16_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_gid_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_fd_setsize.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_suseconds_t.h:
 
@@ -300,8 +302,6 @@ CMakeFiles/simple_db.dir/main.C.o: /Users/joneskim/Documents/Projects/smaller_pr
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/stdint.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/regex.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/fcntl.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/_types/_uint32_t.h:
@@ -347,12 +347,6 @@ CMakeFiles/simple_db.dir/main.C.o: /Users/joneskim/Documents/Projects/smaller_pr
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/stdbool.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/_types/_uint8_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_fd_setsize.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/sys/cdefs.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/_regex.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/arm/_endian.h:
 
