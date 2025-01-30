@@ -4,27 +4,29 @@
 #include <string>
 #include <functional>
 
-template<typename T>
+template <typename T>
+concept Comparable = requires(T a, T b) {
+    { a == b } -> std::convertible_to<bool>;
+};
+
+// 2. Question class template
+template <Comparable T>
 class Question {
-
-    public:
-        Question(const std::string &question, const T &answer) : question(question), correctAnswer(answer) {
-            checkAnswerFunc = [this](const T& answer) { return answer == correctAnswer; };
+public:
+    Question(const std::string& text, T correctAnswer)
+        : text_(text), correctAnswer_(correctAnswer) {
+        evaluator_ = [this](const T& userAnswer) {
+            return userAnswer == correctAnswer_;
         };
-    
-        bool checkAnswer(const T& answer) const{
-            return checkAnswerFunc(answer);
-        };
+    }
 
-        const std::string &getQuestion() const {
-            return question;
-        }
+    bool checkAnswer(const T& userAnswer) const { return evaluator_(userAnswer); }
+    const std::string& getText() const { return text_; }
 
-    private:
-        std::string question;
-        T correctAnswer;
-        std::function<bool(const T&)> checkAnswerFunc;
-
+private:
+    std::string text_;
+    T correctAnswer_;
+    std::function<bool(const T&)> evaluator_;
 };
 
 #endif /* QUESTION_H */
